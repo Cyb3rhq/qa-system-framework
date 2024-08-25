@@ -33,4 +33,3 @@ Once you have installed the `cyb3rhq-qa-framework`, you can use and import it in
 ```
 from cyb3rhq_qa_framework.x import y
 ```
-
