@@ -11,8 +11,8 @@ Test cases:
 
 import re
 
-from wazuh_qa_framework.meta_testing.utils import DEFAULT_LOG_MESSAGE, append_log
-from wazuh_qa_framework.generic_modules.tools.file_regex_monitor import MonitoringObject, FileRegexMonitor
+from cyb3rhq_qa_framework.meta_testing.utils import DEFAULT_LOG_MESSAGE, append_log
+from cyb3rhq_qa_framework.generic_modules.tools.file_regex_monitor import MonitoringObject, FileRegexMonitor
 
 
 def custom_callback(line):
@@ -24,7 +24,7 @@ def custom_callback(line):
     Returns:
         tuple(str): Log captured groups, if not matched returns None.
     """
-    pattern = r'(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2}) wazuh-modulesd:(.*): (\w+): .*'
+    pattern = r'(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2}) cyb3rhq-modulesd:(.*): (\w+): .*'
     match = re.match(pattern, line)
 
     if match:

@@ -4,10 +4,10 @@ Module to test the matching patterns of FileRegexChecker.
 import os
 import pytest
 
-from wazuh_qa_framework.generic_modules.tools.file_regex_checker import FileRegexChecker
-from wazuh_qa_framework.generic_modules.exceptions.exceptions import ElementNotFoundError
-from wazuh_qa_framework.meta_testing.configuration import get_test_cases_data
-from wazuh_qa_framework.meta_testing.utils import write_file
+from cyb3rhq_qa_framework.generic_modules.tools.file_regex_checker import FileRegexChecker
+from cyb3rhq_qa_framework.generic_modules.exceptions.exceptions import ElementNotFoundError
+from cyb3rhq_qa_framework.meta_testing.configuration import get_test_cases_data
+from cyb3rhq_qa_framework.meta_testing.utils import write_file
 
 
 TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data')

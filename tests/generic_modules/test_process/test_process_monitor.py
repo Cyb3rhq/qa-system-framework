@@ -16,10 +16,10 @@ import time
 import multiprocessing
 import pytest
 
-from wazuh_qa_framework.generic_modules.process.monitor.process_monitor import ProcessMonitor
-from wazuh_qa_framework.generic_modules.process.monitor.linux_process_monitor import LinuxProcessMonitor
-from wazuh_qa_framework.generic_modules.process.monitor.windows_process_monitor import WindowsProcessMonitor
-from wazuh_qa_framework.generic_modules.exceptions.exceptions import ValueError
+from cyb3rhq_qa_framework.generic_modules.process.monitor.process_monitor import ProcessMonitor
+from cyb3rhq_qa_framework.generic_modules.process.monitor.linux_process_monitor import LinuxProcessMonitor
+from cyb3rhq_qa_framework.generic_modules.process.monitor.windows_process_monitor import WindowsProcessMonitor
+from cyb3rhq_qa_framework.generic_modules.exceptions.exceptions import ValueError
 
 
 def loop():

@@ -11,10 +11,10 @@ import sys
 import pytest
 from tempfile import gettempdir
 
-from wazuh_qa_framework.generic_modules.file.file import get_file_encoding
-from wazuh_qa_framework.meta_testing.configuration import get_test_cases_data
-from wazuh_qa_framework.meta_testing.utils import write_file, remove_file
-from wazuh_qa_framework.generic_modules.exceptions.exceptions import ValueError
+from cyb3rhq_qa_framework.generic_modules.file.file import get_file_encoding
+from cyb3rhq_qa_framework.meta_testing.configuration import get_test_cases_data
+from cyb3rhq_qa_framework.meta_testing.utils import write_file, remove_file
+from cyb3rhq_qa_framework.generic_modules.exceptions.exceptions import ValueError
 
 
 DEFAULT_SAMPLE_FILE = os.path.join(gettempdir(), 'file.log')

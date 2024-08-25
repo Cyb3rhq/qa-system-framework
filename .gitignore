@@ -3,7 +3,7 @@ __pycache__
 .pytest_cache
 
 venv
-wazuh_testing.egg-info
+cyb3rhq_testing.egg-info
 dist
 
 # Python bytecode files
@@ -51,7 +51,7 @@ Temporary Items
 # Ignore all local history of files
 .history
 
-# Wazuh tools installation files
+# Cyb3rhq tools installation files
 build/
 dist/
 *.egg-info/

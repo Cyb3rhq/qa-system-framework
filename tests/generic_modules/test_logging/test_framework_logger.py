@@ -5,7 +5,7 @@ Test cases:
     - Case 1: Check that if we define multiple framework loggers, they are the same object (singleton).
 """
 
-from wazuh_qa_framework.generic_modules.logging.framework_logger import FrameworkLogger
+from cyb3rhq_qa_framework.generic_modules.logging.framework_logger import FrameworkLogger
 
 
 def test_singleton():

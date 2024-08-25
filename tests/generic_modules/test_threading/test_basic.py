@@ -1,5 +1,5 @@
 """
-Module to test the custom Thread class from the wazuh-qa-framework
+Module to test the custom Thread class from the cyb3rhq-qa-framework
 
 Test cases:
     - Case 1: Run a sample function in the thread and get its result.
@@ -9,7 +9,7 @@ Test cases:
 import pytest
 import time
 
-from wazuh_qa_framework.generic_modules.threading.thread import Thread
+from cyb3rhq_qa_framework.generic_modules.threading.thread import Thread
 
 
 def test_target_runner():

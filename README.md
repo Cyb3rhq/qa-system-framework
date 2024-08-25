@@ -1,12 +1,12 @@
 [![Slack](https://img.shields.io/badge/slack-join-blue.svg)](https://wazuh.com/community/join-us-on-slack/)
-[![Email](https://img.shields.io/badge/email-join-blue.svg)](https://groups.google.com/forum/#!forum/wazuh)
+[![Email](https://img.shields.io/badge/email-join-blue.svg)](https://groups.google.com/forum/#!forum/cyb3rhq)
 [![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://documentation.wazuh.com)
 [![Documentation](https://img.shields.io/badge/web-view-green.svg)](https://wazuh.com)
-[![Twitter](https://img.shields.io/twitter/follow/wazuh?style=social)](https://twitter.com/wazuh)
+[![Twitter](https://img.shields.io/twitter/follow/cyb3rhq?style=social)](https://twitter.com/cyb3rhq)
 [![YouTube](https://img.shields.io/youtube/views/peTSzcAueEc?style=social)](https://www.youtube.com/watch?v=peTSzcAueEc)
 
 
-# Wazuh QA framework
+# Cyb3rhq QA framework
 
 This repository contains a toolset so that the tests and developers can build tests in a modular and efficient way.
 
@@ -20,7 +20,7 @@ First, you have to install the python dependencies. These dependencies are neede
 python3 -m pip install -r requirements.txt
 ```
 
-Next, you have to install the `wazuh-qa-framework` in order to use it as python dependency. To do this, you have to install the `setup.py` file that is located in the root path of this repository.
+Next, you have to install the `cyb3rhq-qa-framework` in order to use it as python dependency. To do this, you have to install the `setup.py` file that is located in the root path of this repository.
 
 ```
 python3 setup.py install
@@ -28,9 +28,9 @@ python3 setup.py install
 
 ## How to use
 
-Once you have installed the `wazuh-qa-framework`, you can use and import it into your python scripts or tests modules.
+Once you have installed the `cyb3rhq-qa-framework`, you can use and import it into your python scripts or tests modules.
 
 ```
-from wazuh_qa_framework.x import y
+from cyb3rhq_qa_framework.x import y
 ```
 

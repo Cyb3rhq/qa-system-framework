@@ -2,7 +2,7 @@ import pytest
 import os
 from tempfile import gettempdir
 
-from wazuh_qa_framework.meta_testing.utils import write_file, remove_file
+from cyb3rhq_qa_framework.meta_testing.utils import write_file, remove_file
 
 
 DEFAULT_SAMPLE_FILE = os.path.join(gettempdir(), 'file.log')

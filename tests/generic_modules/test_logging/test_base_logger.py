@@ -15,8 +15,8 @@ import pytest
 import os
 
 from tempfile import gettempdir
-from wazuh_qa_framework.generic_modules.logging.base_logger import BaseLogger
-from wazuh_qa_framework.meta_testing.utils import read_file
+from cyb3rhq_qa_framework.generic_modules.logging.base_logger import BaseLogger
+from cyb3rhq_qa_framework.meta_testing.utils import read_file
 
 
 SAMPLE_FILE = os.path.join(gettempdir(), 'file.log')

@@ -13,8 +13,8 @@ Note: Higher coverage rate needed (time requirements I could not add more)
 
 import pytest
 
-from wazuh_qa_framework.generic_modules.request.request import GetRequest, PostRequest, PutRequest, DeleteRequest
-from wazuh_qa_framework.meta_testing.utils import FREE_API_URL
+from cyb3rhq_qa_framework.generic_modules.request.request import GetRequest, PostRequest, PutRequest, DeleteRequest
+from cyb3rhq_qa_framework.meta_testing.utils import FREE_API_URL
 
 
 parameters = [

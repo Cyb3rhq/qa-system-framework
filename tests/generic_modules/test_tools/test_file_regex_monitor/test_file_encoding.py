@@ -12,10 +12,10 @@ import os
 import sys
 import pytest
 
-from wazuh_qa_framework.generic_modules.tools.file_regex_monitor import MonitoringObject, FileRegexMonitor
-from wazuh_qa_framework.generic_modules.threading.thread import Thread
-from wazuh_qa_framework.meta_testing.utils import append_log
-from wazuh_qa_framework.meta_testing.configuration import get_test_cases_data
+from cyb3rhq_qa_framework.generic_modules.tools.file_regex_monitor import MonitoringObject, FileRegexMonitor
+from cyb3rhq_qa_framework.generic_modules.threading.thread import Thread
+from cyb3rhq_qa_framework.meta_testing.utils import append_log
+from cyb3rhq_qa_framework.meta_testing.configuration import get_test_cases_data
 
 
 # Test cases data path

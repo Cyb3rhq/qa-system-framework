@@ -10,8 +10,8 @@ Test cases:
 import sys
 import pytest
 
-from wazuh_qa_framework.generic_modules.process.windows_process import WindowsProcess
-from wazuh_qa_framework.generic_modules.process.linux_process import LinuxProcess
+from cyb3rhq_qa_framework.generic_modules.process.windows_process import WindowsProcess
+from cyb3rhq_qa_framework.generic_modules.process.linux_process import LinuxProcess
 
 
 @pytest.mark.skipif(sys.platform != 'linux', reason='Requires Linux')

@@ -10,8 +10,8 @@ Test cases:
 import warnings
 import pytest
 
-from wazuh_qa_framework.generic_modules.request.request import Request
-from wazuh_qa_framework.meta_testing.utils import FREE_API_URL
+from cyb3rhq_qa_framework.generic_modules.request.request import Request
+from cyb3rhq_qa_framework.meta_testing.utils import FREE_API_URL
 
 
 @pytest.mark.parametrize('verify', [True, False])
